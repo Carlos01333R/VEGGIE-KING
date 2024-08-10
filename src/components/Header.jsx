@@ -24,7 +24,7 @@ export default function Header() {
     <>
       <header className="font-raleway-regular flex w-[100%] text-black  justify-between items-center bg-white py-3 px-3 md:px-12 shadow-md z-50 ">
         <section className="md:ml-6 flex items-center">
-          <img src="/src/assets/icons/logo.svg" alt="Logo" />
+          <img src="/logotipo.svg" alt="Logo" />
         </section>
         <section className="flex items-center justify-center gap-2 ">
           <button
