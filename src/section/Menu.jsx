@@ -1,19 +1,23 @@
+import MenuMightyBurger from "/src/assets/images/menu-section-mighty-burger.png";
+import MenuChickpaeSalad from "/src/assets/images/menu-section-chickpae-salad.png";
+import MenuChickpaeWrap from "/src/assets/images/menu-section-chickpae-wrap.png";
+
 export default function Menu() {
   const menuFood = [
     {
       name: "Mighty Burger",
       description: "A classic burger with all the fixings.",
-      image: "/src/assets/images/menu-section-mighty-burger.png",
+      image: MenuMightyBurger,
     },
     {
       name: "Chickpae's salad",
       description: "salad with chickpeas, tomatoes, cucumbers, and lettuce.",
-      image: "/src/assets/images/menu-section-chickpae-salad.png",
+      image: MenuChickpaeSalad,
     },
     {
       name: "Chickpae's wrap",
       description: "A classic wrap with all the fixings.",
-      image: "/src/assets/images/menu-section-chickpae-wrap.png",
+      image: MenuChickpaeWrap,
     },
   ];
   return (

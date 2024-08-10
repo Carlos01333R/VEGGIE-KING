@@ -1,6 +1,7 @@
 import TwitterIcon from "../assets/icons/twitter-icon";
 import InstagramIcon from "../assets/icons/instagram-icon";
 import FacebookIcon from "../assets/icons/facebook-icon";
+import Logo from "/src/assets/icons/logotipo.svg";
 import { useEffect } from "react";
 
 export default function Footer() {
@@ -27,7 +28,7 @@ export default function Footer() {
             <div className="p-2 ">
               <img
                 className="hover:scale-105 transition-transform duration-500"
-                src="/src/assets/icons/logo.svg"
+                src={Logo}
                 alt=""
               />
             </div>

@@ -1,23 +1,18 @@
+import GalleryPhoto1 from "/src/assets/images/gallery-photo-1.png";
+import GalleryPhoto2 from "/src/assets/images/gallery-photo-2.png";
+import GalleryPhoto3 from "/src/assets/images/gallery-photo-3.png";
+import GalleryPhoto4 from "/src/assets/images/gallery-photo-4.png";
+import GalleryPhoto5 from "/src/assets/images/gallery-photo-5.png";
+import GalleryPhoto6 from "/src/assets/images/gallery-photo-6.png";
+
 export default function ClientGrid() {
   const PictureClient = [
-    {
-      image: "/src/assets/images/gallery-photo-1.png",
-    },
-    {
-      image: "/src/assets/images/gallery-photo-2.png",
-    },
-    {
-      image: "/src/assets/images/gallery-photo-3.png",
-    },
-    {
-      image: "/src/assets/images/gallery-photo-4.png",
-    },
-    {
-      image: "/src/assets/images/gallery-photo-5.png",
-    },
-    {
-      image: "/src/assets/images/gallery-photo-6.png",
-    },
+    { image: GalleryPhoto1 },
+    { image: GalleryPhoto2 },
+    { image: GalleryPhoto3 },
+    { image: GalleryPhoto4 },
+    { image: GalleryPhoto5 },
+    { image: GalleryPhoto6 },
   ];
   return (
     <>
