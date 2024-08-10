@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import MenuHamburguesa from "../assets/icons/menuHamburguesa";
 import MenuClose from "../assets/icons/menuClose";
+import Logo from "/src/assets/icons/logotipo.svg";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ export default function Header() {
     <>
       <header className="font-raleway-regular flex w-[100%] text-black  justify-between items-center bg-white py-3 px-3 md:px-12 shadow-md z-50 ">
         <section className="md:ml-6 flex items-center">
-          <img src="/logotipo.svg" alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </section>
         <section className="flex items-center justify-center gap-2 ">
           <button
