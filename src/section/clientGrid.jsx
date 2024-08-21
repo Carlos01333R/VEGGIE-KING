@@ -4,6 +4,7 @@ import GalleryPhoto3 from "/src/assets/images/gallery-photo-3.png";
 import GalleryPhoto4 from "/src/assets/images/gallery-photo-4.png";
 import GalleryPhoto5 from "/src/assets/images/gallery-photo-5.png";
 import GalleryPhoto6 from "/src/assets/images/gallery-photo-6.png";
+import { Image } from "@nextui-org/image";
 
 export default function ClientGrid() {
   const PictureClient = [
@@ -33,11 +34,16 @@ export default function ClientGrid() {
         className="w-full mb-10"
       >
         {PictureClient.map((item, index) => (
-          <div key={index} className="w-full">
-            <img
+          <div key={index} className="w-full bg-red-500">
+            <Image
+              removeWrapper={false}
+              radius="none"
+              sizes="100%"
+              width={500}
+              isBlurred={true}
               src={item.image}
               alt="gallery-photo"
-              className="w-full h-[250px] object-cover opacity-90 hover:opacity-100"
+              className=" h-[250px] object-cover opacity-90 hover:opacity-100"
             />
           </div>
         ))}

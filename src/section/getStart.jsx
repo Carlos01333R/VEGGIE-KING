@@ -1,6 +1,7 @@
 import ImgPizza from "/src/assets/images/hero-section-slide-food-1.png";
 import ImgLeft from "/src/assets/images/hero-section-food.png";
 import LogoButtonMenu from "/src/assets/icons/check-menu-icon.svg";
+import { Image } from "@nextui-org/image";
 
 export default function GetStart() {
   return (
@@ -29,9 +30,10 @@ export default function GetStart() {
               </button>
             </div>
 
-            <div className="md:w-[50%]">
-              <img
-                className="w-[250px] relative -top-[50%] md:-top-0 md:left-[50%] md:h-[350px] md:w-[550px] mb-2 md:mb-0 object-contain"
+            <div className="w-full md:w-[50%] relative -top-28 md:-top-0 flex justify-center items-center">
+              <Image
+                ra
+                className="w-[250px] relative  md:-top-0 md:left-[50%] md:h-[350px] md:w-[550px] mb-2 md:mb-0 object-contain rounded-none"
                 src={ImgPizza}
                 alt=""
               />

@@ -1,7 +1,7 @@
 import MenuMightyBurger from "/src/assets/images/menu-section-mighty-burger.png";
 import MenuChickpaeSalad from "/src/assets/images/menu-section-chickpae-salad.png";
 import MenuChickpaeWrap from "/src/assets/images/menu-section-chickpae-wrap.png";
-
+import { Image } from "@nextui-org/image";
 export default function Menu() {
   const menuFood = [
     {
@@ -47,7 +47,7 @@ export default function Menu() {
               className="w-[320px] md:w-[350px] h-[290px] md:h-[310px] rounded-b-xl shadow-xl mb-3 m-auto hover:scale-105 transition-transform duration-500"
               key={index}
             >
-              <img className="" src={item.image} alt="" />
+              <Image className="" src={item.image} alt={item.name} />
 
               <h3 className="ml-3 mt-2 font-raleway-black">{item.name}</h3>
               <p className="text-sm text-gray-600 ml-3">{item.description}</p>

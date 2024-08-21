@@ -1,4 +1,5 @@
 import AboutSectionFoot from "/src/assets/images/about-us-section-food.png";
+import { Image } from "@nextui-org/image";
 
 export default function AboutUs() {
   return (
@@ -11,7 +12,7 @@ export default function AboutUs() {
             </section>
 
             <section className="relativo flex justify-center items-center md:w-[50%] ">
-              <img
+              <Image
                 className="relative w-[250px] top-2 md:top-0 md:w-[550px] md:h-[330px]  md:-left-[60%] object-contain"
                 src={AboutSectionFoot}
                 alt="img about us section"
