@@ -4,16 +4,16 @@ import { Image } from "@nextui-org/image";
 export default function AboutUs() {
   return (
     <>
-      <main className="font-raleway-regular w-full flex flex-col md:flex-row justify-center items-center h-[500px] mt-[45%] md:mt-0 gap-10">
+      <main className="font-raleway-regular w-full md:max-w-[1200px] mx-auto  flex flex-col md:flex-row justify-center items-center h-[500px] mt-[45%] md:mt-0 gap-10">
         <section className="w-full md:w-[50%]  h-[250px] md:h-full flex flex-col justify-center items-center ">
           <div className="flex  flex-col md:flex-row md:w-[100%]">
             <section className="md:w-[50%] ">
-              <div className="relative w-full md:w-[500px] h-[10px] md:h-[500px] bg-[#2c8240] rounded-full md:left-[-50%] "></div>
+              <div className="relative w-full md:w-[500px] h-[10px] md:h-[500px] bg-[#2c8240] rounded-full md:left-[-100%] "></div>
             </section>
 
             <section className="relativo flex justify-center items-center md:w-[50%] ">
               <Image
-                className="relative w-[250px] top-2 md:top-0 md:w-[550px] md:h-[330px]  md:-left-[60%] object-contain"
+                className="relative w-[250px] top-2 md:top-0 md:w-[550px] md:h-[330px]  md:-left-[100%] object-contain"
                 src={AboutSectionFoot}
                 alt="img about us section"
               />

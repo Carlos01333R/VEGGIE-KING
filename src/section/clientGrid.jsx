@@ -31,7 +31,7 @@ export default function ClientGrid() {
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
         }}
-        className="w-full mb-10"
+        className="w-full mb-10 md:max-w-[1400px] mx-auto"
       >
         {PictureClient.map((item, index) => (
           <div key={index} className="w-full bg-red-500">

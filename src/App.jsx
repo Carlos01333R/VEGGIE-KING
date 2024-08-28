@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <header className="w-[100%]">
+      <header className="w-[100%] ">
         <Header />
       </header>
       <main className="w-[100%]">

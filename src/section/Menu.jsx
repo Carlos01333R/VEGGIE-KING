@@ -41,6 +41,7 @@ export default function Menu() {
             gap: "1rem",
             marginTop: "40px",
           }}
+          className=" md:max-w-[1200px] mx-auto"
         >
           {menuFood.map((item, index) => (
             <div
